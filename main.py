@@ -1,16 +1,24 @@
-# This is a sample Python script.
+import generateDataset
+import visualizer
+import numpy as np
 
-# Press Maiusc+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+nSamples = 400
+startingPoint = 0
+endPoint = 1
+
+def function(c):
+    x, y = c
+    if (x-0.5)**2 + (y-0.5)**2 < 0.16:
+        return 1
+    else:
+        return 0
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    x, y = generateDataset.datasets().dotChart(nSamples, startingPoint, endPoint, function)
+    visualizer.chart2D(x, y, 400, 2, startingPoint, endPoint)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+
+
