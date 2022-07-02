@@ -2,7 +2,6 @@ import numpy as np
 import cv2
 
 def color(choice):
-    print(choice)
     x = np.argmax(choice)
     if x == 0:
         return (255, 0, 0)
@@ -24,7 +23,6 @@ def chart2D(coords, colors, res=200, inz=0, fin=1, dotSize=4):
     for pos, coord in enumerate(coords):
         c = color(colors[pos])
         center = (int(res*(coord[0]-inz)/fin), int(res*(coord[1]-inz)/fin))
-        print(center)
         cv2.circle(img, center, dotSize, c, -1)
     return img
 
@@ -39,5 +37,4 @@ def chartFunc(img, func, params, dotSize=4, res=200):
 
 def display(img, res=200, UPscale=4):
     cv2.imshow("w1", cv2.resize(img, (res * UPscale, res * UPscale)))
-    cv2.waitKey(100000)
-    cv2.destroyAllWindows()
+    return cv2.waitKey(10)

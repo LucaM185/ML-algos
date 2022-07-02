@@ -1,6 +1,8 @@
 import generateDataset
 import visualizer
 import numpy as np
+import cv2
+import algos
 
 nSamples = 40
 startingPoint = 0
@@ -15,18 +17,19 @@ def equation(n, abc):
     a, b, c = abc
     return 1 - (a*(n**2) + b*n + c)
 
+EPOCHS = 300
+a, b, c = 0, 0, 0
 
 if __name__ == '__main__':
     dg = generateDataset.datasets()
-    #x, y = dg.binClassifier(nSamples, function, startingPoint, endPoint)
-    x, y = dg.parabola(nSamples, d=10)
-    print(x)
-    chart = visualizer.chart2D(x, y, dotSize=2)
-    chart = visualizer.chartFunc(chart, equation, (1, 0, 0), dotSize=0)
-    visualizer.display(chart)
-    model = [1, 0]  # m = 1, q = 0
+    #data, labels = dg.binClassifier(nSamples, function, startingPoint, endPoint)
+    data, labels = dg.parabola(nSamples, d=10)
 
+    chart = visualizer.chart2D(data, labels, dotSize=2)
+    chart = visualizer.chartFunc(chart, equation, [a, b, c], dotSize=0)
+    abc, loss = algos.optimizer(data, equation, [a, b, c], 0.01)
+    a, b, c = abc
+    k = visualizer.display(chart)
 
-
-
+    cv2.destroyAllWindows()
 
