@@ -19,13 +19,25 @@ def color(choice):
     elif x == 6:
         return (255, 255, 255)
 
-def chart2D(coords, colors, res=200, UPscale=4, inz=0, fin=1):
-    m = np.zeros((res, res, 3))
+def chart2D(coords, colors, res=200, inz=0, fin=1, dotSize=4):
+    img = np.zeros((res, res, 3))
     for pos, coord in enumerate(coords):
         c = color(colors[pos])
         center = (int(res*(coord[0]-inz)/fin), int(res*(coord[1]-inz)/fin))
-        cv2.circle(m, center, 6, c, -1)
+        print(center)
+        cv2.circle(img, center, dotSize, c, -1)
+    return img
 
-    cv2.imshow("w1", cv2.resize(m, (res * UPscale, res * UPscale)))
+
+
+def chartFunc(img, func, params, dotSize=4, res=200):
+    for x in np.arange(0, 1, 1/400):
+        y = func(x, params)
+        cv2.circle(img, (int(x*res), int(y*res)), dotSize, (127, 127, 127), -1)
+    return img
+
+
+def display(img, res=200, UPscale=4):
+    cv2.imshow("w1", cv2.resize(img, (res * UPscale, res * UPscale)))
     cv2.waitKey(100000)
     cv2.destroyAllWindows()

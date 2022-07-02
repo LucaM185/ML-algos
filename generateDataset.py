@@ -14,5 +14,9 @@ class datasets:
             y[pos, 1] = 1-y[pos, 0]
         return x, y
 
-    def parabola(self):
-        pass
+    def parabola(self, n, a=1, b=0, c=0, d=4):
+        x = np.array([x for x in np.arange(0, 1, 1/n)])
+        rand = (np.random.rand(n)-0.5) / d
+        y = 1-x**2 + rand
+        c = np.array([[1] for x in np.arange(0, 1, 1/n)])
+        return np.array([x, y]).T, c

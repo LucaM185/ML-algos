@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="069ff0c7-25ab-4b66-99c6-d79e62e540e7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ML-testing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML-testing.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="069ff0c7-25ab-4b66-99c6-d79e62e540e7" name="Changes" comment="More generalized and flexible visualizer and starting linear classifier">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generateDataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/generateDataset.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
@@ -80,6 +78,29 @@
       <option name="presentableId" value="Default" />
       <updated>1656695356456</updated>
     </task>
+    <task id="LOCAL-00001" summary="More generalized and flexible visualizer and starting linear classifier">
+      <created>1656793620938</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656793620938</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="More generalized and flexible visualizer and starting linear classifier" />
+    <option name="LAST_COMMIT_MESSAGE" value="More generalized and flexible visualizer and starting linear classifier" />
   </component>
 </project>
