@@ -19,10 +19,10 @@ for i in range(1000):
     lr = algos.linearRegression(200, 0, 1)
     lr.makedataset(functRand, 0.05)
     lr.chart(200, 1)
-    lr.show(800)
+    lr.show(800, 10)
     t = lr.train(360, 100)  # n*m*q complexity
     lr.drawPredictions()
-    if lr.showWait(800) == 27: break
+    if lr.show(800, 0) == 27: break
     print(f"Computed {lr.n*lr.msamples*lr.qsamples} equations in {t} with parameters {a, b, c}")
 cv2.destroyAllWindows()
 

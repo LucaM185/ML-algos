@@ -40,14 +40,9 @@ class linearRegression:
             y = x*self.best[0] + self.best[1]  # y = mx + q
             cv2.circle(self.img, (int(x*res), res-int(y*res)), 1, (0, 0, 255), -1)
 
-
-    def show(self, res=800):
-        cv2.imshow("w1", cv2.resize(self.img, (800, 800)))
-        cv2.waitKey(10)
-
-    def showWait(self, res=800):
-        cv2.imshow("w1", cv2.resize(self.img, (800, 800)))
-        return cv2.waitKey(0)
+    def show(self, res=800, time=0):
+        cv2.imshow("w1", cv2.resize(self.img, (res, res)))
+        return cv2.waitKey(time)
 
 
     def train(self, mSamples, qSamples):
@@ -66,31 +61,18 @@ class linearRegression:
         angularCoefficients = sin(ang) / cos(ang)
 
         # Making a set of q
-        '''
-        qTarget = 0.5
-        qDistribution = 1
-        qSteps = qDistribution * 2 / qSamples
-        qMin = qTarget-qDistribution+qSteps
-        qMax = qTarget+qDistribution
-        qs = np.arange(qMin, qMax, qSteps)
-        '''
-
         qTarget = 0.5
         qDistribution = 4
         qs = np.arange(-1, 1, 1/qSamples)
         qs = qs*abs(qs)
         qs += qTarget
         qs *= qDistribution
-        print(qs)
-
-
-
 
         ys = self.y
         xs = self.x
 
         self.best = fastTraining(ys, xs, angularCoefficients, qs)
-        return time.time()-t0
+        return time.time()-t0, self.best
 
 
 
