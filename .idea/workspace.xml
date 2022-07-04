@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="069ff0c7-25ab-4b66-99c6-d79e62e540e7" name="Changes" comment="new quadratic equations support">
-      <change afterPath="$PROJECT_DIR$/algos.py" afterDir="false" />
+    <list default="true" id="069ff0c7-25ab-4b66-99c6-d79e62e540e7" name="Changes" comment="introduction of an algorithm for linear regression">
+      <change afterPath="$PROJECT_DIR$/V0.2/algos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/V0.2/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visualizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/visualizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algos.py" beforeDir="false" afterPath="$PROJECT_DIR$/V0.1/algos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generateDataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/V0.1/generateDataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/V0.1/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/V0.1/visualizer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +49,33 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lucam\Documents\GitHub\ML-testing\V0.1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main 0.2">
+    <configuration name="main 0.2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ML-testing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\lucam\anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/V0.2" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/V0.2/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="ML-testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -59,7 +88,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\lucam\Documents\GitHub\ML-testing\V0.1\main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -68,6 +97,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main 0.2" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -92,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656796084033</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="introduction of an algorithm for linear regression">
+      <created>1656801337633</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656801337633</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,6 +150,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="More generalized and flexible visualizer and starting linear classifier" />
     <MESSAGE value="new quadratic equations support" />
-    <option name="LAST_COMMIT_MESSAGE" value="new quadratic equations support" />
+    <MESSAGE value="introduction of an algorithm for linear regression" />
+    <option name="LAST_COMMIT_MESSAGE" value="introduction of an algorithm for linear regression" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/V0.1/visualizer.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
