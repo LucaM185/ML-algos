@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="069ff0c7-25ab-4b66-99c6-d79e62e540e7" name="Changes" comment="Logistic regression working fine (todo QA with high range in makedataset)">
-      <change afterPath="$PROJECT_DIR$/V3.0/algos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/V3.0/decisionTrees.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/V3.0/linearRegression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/V3.0/logisticRegression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V0.1/algos.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V0.1/generateDataset.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V0.1/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V0.1/visualizer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V0.2/algos.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V0.2/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/V1.0 -- Linear regression/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/V1.0 -- Linear regression/linearRegression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/V2.0 -- Logistic Regression/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/V2.0 -- Logistic Regression/logisticRegression.py" afterDir="false" />
-    </list>
+    <list default="true" id="069ff0c7-25ab-4b66-99c6-d79e62e540e7" name="Changes" comment="decision Trees barely started" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -228,7 +214,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657056655041</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Logistic regression working fine (todo QA with high range in makedataset)">
+      <created>1657060438501</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1657060438501</updated>
+    </task>
+    <task id="LOCAL-00013" summary="decision Trees barely started">
+      <created>1657060466729</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1657060466729</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,7 +251,8 @@
     <MESSAGE value="(Almost) Finished, linear regression working great&#10;todo fix loss (prints list instead of value??)" />
     <MESSAGE value="Finished, somewhat working with values not in 0-1 range" />
     <MESSAGE value="Logistic regression working fine (todo QA with high range in makedataset)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Logistic regression working fine (todo QA with high range in makedataset)" />
+    <MESSAGE value="decision Trees barely started" />
+    <option name="LAST_COMMIT_MESSAGE" value="decision Trees barely started" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
