@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="069ff0c7-25ab-4b66-99c6-d79e62e540e7" name="Changes" comment="V0.2 Working linear regression simplified">
-      <change afterPath="$PROJECT_DIR$/V0.3/algos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/V0.3/main.py" afterDir="false" />
+    <list default="true" id="069ff0c7-25ab-4b66-99c6-d79e62e540e7" name="Changes" comment="(Almost) Finished, linear regression working great&#10;todo fix loss (prints list instead of value??)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V0.3/algos.py" beforeDir="false" afterPath="$PROJECT_DIR$/V0.3/algos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V0.3/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/V0.3/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656969560500</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="(Almost) Finished, linear regression working great&#10;todo fix loss (prints list instead of value??)">
+      <created>1656977276771</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656977276771</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,7 +201,8 @@
     <MESSAGE value="introduction of an algorithm for linear regression" />
     <MESSAGE value="V0.2 Working linear regression" />
     <MESSAGE value="V0.2 Working linear regression simplified" />
-    <option name="LAST_COMMIT_MESSAGE" value="V0.2 Working linear regression simplified" />
+    <MESSAGE value="(Almost) Finished, linear regression working great&#10;todo fix loss (prints list instead of value??)" />
+    <option name="LAST_COMMIT_MESSAGE" value="(Almost) Finished, linear regression working great&#10;todo fix loss (prints list instead of value??)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

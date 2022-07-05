@@ -53,10 +53,12 @@ class linearRegression:
         cv2.imshow("w1", cv2.resize(self.img, (res, res)))
         return cv2.waitKey(time)
 
-    def train(self, mSamples, qSamples, EPOCHS=1, mTarget=0, qTarget=0.5, draw=1):
+    def train(self, mSamples, qSamples, EPOCHS=1, mTarget=0, qTarget=None, draw=1):
         self.draw = draw
         self.losses = []
         totalTime = 0
+        if qTarget == None:
+            qTarget = np.mean(self.y)
         self.best = [mTarget, qTarget]
         for EPOCH in range(EPOCHS):
             time, self.best, loss = self.trainOnce(mSamples, qSamples, iteration=EPOCH, mTarget=self.best[0], qTarget=self.best[1])
@@ -79,7 +81,7 @@ class linearRegression:
         ms = np.tan(angs)
 
         # Making a set of q
-        qDistribution = 4 / 2**iteration
+        qDistribution = 4*np.mean(self.y) / 2**iteration
         qs = np.arange(-1, 1, 1/qSamples)
         qs = qs*abs(qs)*qDistribution + qTarget
 
@@ -100,6 +102,9 @@ class linearRegression:
         varFit = self.losses[-1]
         return (varMean - varFit)/varMean
 
+    def predict(self, x):
+        m, q = self.best
+        return x*m+q
 
 def stdDev(y):
     mean = np.mean(y)
