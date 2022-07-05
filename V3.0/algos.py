@@ -37,9 +37,9 @@ class branch:
         p, n = self.condition
         activation = p > n
         if activation:
-            # other branch with higher range
+            pass # other branch with higher range
         else:
-            # other branch with lower range
+            pass # other branch with lower range
 
 
 
@@ -59,6 +59,7 @@ class decisionTrees(display):
         self.y = np.sin(self.x)
 
     def makeRandomTree(self, depth=0):
+        pass
 
 
 
