@@ -1,10 +1,12 @@
 # ML-testing
 Dynamic ML algorithm development 
 
-Every Major version should work better than everything before, the main.py files in the the last minor version of every major revision display them working
+Every Major version that is not the latest is not kept up to date, if you want to try something, the latest software is in the last major version folder
 
-0.x --> Linear Regression 
-1.x --> Logistic Regression
+1.x --> Linear Regression 
+2.x --> Logistic Regression
+3.x --> Decision Trees
+... 
 
 
 ToDo list:
