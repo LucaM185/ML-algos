@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="069ff0c7-25ab-4b66-99c6-d79e62e540e7" name="Changes" comment="Finished, somewhat working with values not in 0-1 range">
-      <change afterPath="$PROJECT_DIR$/V1.0/algos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/V1.0/main.py" afterDir="false" />
+    <list default="true" id="069ff0c7-25ab-4b66-99c6-d79e62e540e7" name="Changes" comment="Logistic regression working fine (todo QA with high range in makedataset)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1.0/algos.py" beforeDir="false" afterPath="$PROJECT_DIR$/V1.0/algos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/V1.0/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/V1.0/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657046218383</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Logistic regression working fine (todo QA with high range in makedataset)">
+      <created>1657048167500</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657048167500</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -233,7 +240,8 @@
     <MESSAGE value="V0.2 Working linear regression simplified" />
     <MESSAGE value="(Almost) Finished, linear regression working great&#10;todo fix loss (prints list instead of value??)" />
     <MESSAGE value="Finished, somewhat working with values not in 0-1 range" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished, somewhat working with values not in 0-1 range" />
+    <MESSAGE value="Logistic regression working fine (todo QA with high range in makedataset)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Logistic regression working fine (todo QA with high range in makedataset)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

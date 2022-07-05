@@ -215,7 +215,7 @@ class logisticRegression:
 
 
 @njit()
-def fastTrainingLogistic(ys, xs, As, Bs, Cs):
+def fastTrainingLogistic(ys, xs, As, Bs, Cs):  # EPOCH * n**5 complexity !!
     best = None
     minLoss = 1e15
     for a in As:

@@ -22,8 +22,8 @@ for i in range(1000):
     # Make dataset
     lr = algos.logisticRegression(200, 0, 1)
     while True:
-        a, b, c = random.random() * 4, random.random() * 4 - 2, random.random() - 0.3
-        lr.makedataset(functRand, 0.05)
+        a, b, c = random.random() * 4-2, random.random() * 4 - 2, random.random() - 0.3
+        lr.makedataset(functRand, randomness=0.02)
         if lr.x.shape[0] > lr.n/5: break
     # Display dots
     lr.chart(200, 1)
