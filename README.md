@@ -1,8 +1,7 @@
 # ML-testing
 Dynamic ML algorithm development 
 
-## NOT WORKING 
-## Give up
+## NOT WORKING, Give up.
 
 Every Major version that is not the latest is not kept up to date, if you want to try something, the latest software is in the last major version folder
 
