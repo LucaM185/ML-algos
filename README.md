@@ -5,7 +5,7 @@ Every Major version that is not the latest is not kept up to date, if you want t
 
 1.x --> Linear Regression 
 2.x --> Polynomial Regression
-3.x --> Decision Trees
+3.x --> Decision Trees (WIP)
 ... 
 
 
