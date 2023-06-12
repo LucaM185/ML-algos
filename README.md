@@ -12,13 +12,8 @@ Every Major version that is not the latest is not kept up to date, if you want t
 ToDo list:
 [X] Linear regression.
 [X] Polynomial regression. 
-[ ] Logistic regression. 
 [ ] Decision tree. 
 [ ] SVM algorithm. 
-[ ] Naive Bayes algorithm. 
-[ ] KNN algorithm. 
-[ ] K-means. 
-[ ] Random forest algorithm. 
 
 
 
